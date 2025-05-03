@@ -20,7 +20,7 @@ jobs:
                 SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
               with:
                 args: >
-                    -Dsonar.projectKey=your_project_key
+                    -Dsonar.projectKey=site-faculdade
                     -Dsonar.projectName=site-faculdade
                     -Dsonar.projectVersion=1.0
                     -Dsonar.sources=.
